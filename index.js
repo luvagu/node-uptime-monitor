@@ -10,22 +10,6 @@ const url = require('url')
 const StringDecoder = require('string_decoder').StringDecoder
 const config = require('./config')
 const fs = require('fs')
-const _data = require('./lib/data')
-
-// Testing
-// @TODO delete this
-// _data.create('test', 'test', { me: 'lu', hi: 5 }, (err) => {
-//     console.log('Ooops', err);
-// })
-// _data.read('test', 'testt', (err, data) => {
-//     console.log('Error', err, 'Data', data);
-// })
-// _data.update('test', 'test1', {foo:'123', bar:'555'}, (err) => {
-//     console.log('Error', err);
-// })
-_data.delete('test', 'test', (err) => {
-    console.log('Error', err);
-}) 
 
 // Instantiate the HTTP server
 const httpServer = http.createServer((req, res) => {
