@@ -45,7 +45,7 @@ const unifiedServer = (req, res) => {
     const trimmedPath = path.replace(/^\/+|\/+$/g, '')
 
     // Get the query string as an object
-    const queryString = parsedUrl.query
+    const queryStringObject = parsedUrl.query
 
     // Get the HTTP Method
     const method = req.method.toLocaleLowerCase()
@@ -66,7 +66,7 @@ const unifiedServer = (req, res) => {
         // Counstruct the data object to send to the handler
         const data = {
             trimmedPath: trimmedPath,
-            queryString: queryString,
+            queryStringObject: queryStringObject,
             method: method,
             header: headers,
             payload: helpers.parseJsonToObject(buffer)
