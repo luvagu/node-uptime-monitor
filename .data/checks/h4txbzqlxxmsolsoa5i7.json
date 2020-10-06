@@ -1,1 +1,1 @@
-{"id":"h4txbzqlxxmsolsoa5i7","userPhone":"4158675309","protocol":"http","url":"tools.imporpernos.com/rv","method":"post","successCodes":[200,201,301,302],"timeoutSeconds":5,"state":"down","lastChecked":1601921269122}
+{"id":"h4txbzqlxxmsolsoa5i7","userPhone":"4158675309","protocol":"https","url":"google.com","method":"get","successCodes":[200,201,301,302],"timeoutSeconds":5,"state":"up","lastChecked":1602003654296}
