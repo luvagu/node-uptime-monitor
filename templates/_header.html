@@ -12,7 +12,10 @@
     <meta name="description" content="{head.description}">
 
     <!-- Static Assets -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="public/favicon-96x96.png">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="public/app.css">
     <script src="public/app.js" defer></script>
 </head>
@@ -24,15 +27,15 @@
 
         <div class="header">
             <!-- Logo -->
-            <a class="logo" href="/"></a>
+            <a class="logo" href="/"><img src="public/logo-signal.png" alt="Logo"></a>
             <!-- Nav -->
             <ul class="menu">
                 <li><a href="/">Home</a></li>
-                <li class="loggedOut"><a href="/">Sign In</a></li>
-                <li class="loggedOut"><a href="/">Sign Up</a></li>
-                <li class="loggedIn"><a href="/">Dashboard</a></li>
-                <li class="loggedIn"><a href="/">My Account</a></li>
-                <li class="loggedIn"><a href="/">Sign Out</a></li>
+                <li class="loggedOut"><a href="/session/create">Sign In</a></li>
+                <li class="loggedOut"><a href="/account/create">Sign Up</a></li>
+                <li class="loggedIn"><a href="/checks/all">Dashboard</a></li>
+                <li class="loggedIn"><a href="/account/edit">My Account</a></li>
+                <li class="loggedIn"><a href="#">Sign Out</a></li>
             </ul>
         </div>
 
