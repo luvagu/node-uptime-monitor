@@ -26,7 +26,7 @@ app.init = () => {
 
     // Start the CLI, but make sure it starts last
     setTimeout(() => {
-        cli.init()
+       cli.init()
     }, 50)
 }
 
