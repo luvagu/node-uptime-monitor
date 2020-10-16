@@ -534,10 +534,7 @@ app.loadChecksListPage = () => {
 												? responsePayload.state
 												: 'unknown'
 										td3.innerHTML = state
-										td4.innerHTML =
-											'<a href="/checks/edit?id=' +
-											responsePayload.id +
-											'">View / Edit / Delete</a>'
+										td4.innerHTML = '<a href="/checks/edit?id=' + responsePayload.id + '">View / Edit / Delete</a>'
 									} else {
 										console.log('Error trying to load check ID: ', checkId)
 									}
