@@ -1,1 +1,1 @@
-{"id":"19d3Z2gCnwCndqwveSxy","userPhone":"4158675309","protocol":"http","url":"zonetronics.com","method":"get","successCodes":[200,201],"timeoutSeconds":5,"state":"down","lastChecked":1603283950251}
+{"id":"19d3Z2gCnwCndqwveSxy","userPhone":"4158675309","protocol":"https","url":"ebuyer.com","method":"get","successCodes":[200,201,301,302],"timeoutSeconds":5,"state":"up","lastChecked":1603289108101}

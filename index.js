@@ -5,6 +5,7 @@
 
 // Utility commands available:
 // SERVER >>> NODE_DEBUG=server node index.js
+// PERFORMANCE >>> NODE_DEBUG=performance node index.js
 // WORKERS >>> NODE_DEBUG=workers node index.js
 // CLI >>> NODE_DEBUG=cli node index.js
 
